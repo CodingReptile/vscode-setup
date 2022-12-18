@@ -1,0 +1,12 @@
+{
+	"name": "Ubuntu",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": { "VARIANT": "bionic" }
+	},
+
+	"settings": {},
+
+
+	"extensions": ["ms-vscode.cpptools"],
+}

@@ -1,0 +1,23 @@
+{
+    "tasks": [
+        {
+            "type": "shell", 
+            "label": "Build program 1",
+            "command": "",
+            "args": [
+                "make",
+                "program1"
+            ]
+        },
+        {
+            "type": "shell", 
+            "label": "Build program 2",
+            "command": "",
+            "args": [
+                "make",
+                "program2"
+            ]
+        }
+    ],
+    "version": "2.0.0"
+}
