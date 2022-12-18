@@ -1,5 +1,8 @@
 program1:
-	gcc -o program1 program1.c
+	gcc -g -o program1 program1.c
 
 program2:
-	gcc -o program2 program2.c
+	gcc -g -o program2 program2.c
+
+clean:
+	rm program1 program2

@@ -17,6 +17,15 @@
                 "make",
                 "program2"
             ]
+        },
+        {
+            "type": "shell", 
+            "label": "Clean",
+            "command": "",
+            "args": [
+                "make",
+                "clean"
+            ]
         }
     ],
     "version": "2.0.0"
